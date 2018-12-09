@@ -28,7 +28,7 @@ However, it works and can be used to produce some nice pictures and learn some g
 
  This generates the file 'screenshot1.eps' containing the following image:
 
- ![screenshot1.eps](/screenshot1.eps)
+ ![screenshot1.svg](/screenshot1.svg)
 
 ## Relationship to the turtle standard library
 
@@ -39,7 +39,7 @@ However, it works and can be used to produce some nice pictures and learn some g
         >>> hturtle.regularwalk(1,90,20)
         >>> hturtle.screenshot('screenshot2')
 
- ![screenshot2.eps](/screenshot2.eps)
+ ![screenshot2.svg](/screenshot2.svg)
 
 ## Other functions
 
@@ -60,7 +60,7 @@ However, it works and can be used to produce some nice pictures and learn some g
 		hturtle.regularwalk(hturtle.side(s),90,s)
         >>> hturtle.screenshot('screenshot3')
 
- ![screenshot3.eps](/screenshot3.eps)
+ ![screenshot3.svg](/screenshot3.svg)
 
 # Have fun!
 
