@@ -43,17 +43,7 @@ However, it works and can be used to produce some nice pictures and learn some g
 
 ## Other functions
 
- There are several functions in hturtle.py which are for internal use.  The ones meant for interacting with the turtle are:
-
- hturtle.reset()
- hturtle.right(angle in degrees)
- hturtle.randomwalk(step size, list of angles, number of steps)
- hturtle.regularwalk(step size, angle, number of steps)
- hturtle.screenshot(name to which .eps will be added)
- hturtle.side(number of sides)
- hturtle.forward(distance)
- hturtle.path(step size, list of turning angles)
- hturtle.allwalk(number of steps, step size, list of angles)
+ There are several functions in hturtle.py which are for internal use.  The ones meant for interacting with the turtle are: reset, right, randomwalk, regularwalk, screenshot, side, forward, path, and allwalk.
 
         >>> hturtle.reset()
         >>> for s in range(5,20):
@@ -61,6 +51,14 @@ However, it works and can be used to produce some nice pictures and learn some g
         >>> hturtle.screenshot('screenshot3')
 
  ![screenshot3.svg](/screenshot3.svg)
+
+
+        >>> hturtle.reset()
+        >>> hturtle.turtle.pencolor('blue')
+        >>> hturtle.randomwalk(0.1,[-90,0,90,180],1000)
+        >>> hturtle.screenshot('screenshot4')
+
+ ![screenshot4.svg](/screenshot4.svg)
 
 # Have fun!
 
