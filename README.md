@@ -24,6 +24,7 @@ However, it works and can be used to produce some nice pictures and learn some g
         >>> hturtle.forward(1)
         >>> hturtle.right(90)
         >>> hturtle.right(90)
+        >>> hturtle.screenshot('screenshot1')
 
 
  This generates the file 'screenshot1.eps' containing the following image:
